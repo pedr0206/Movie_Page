@@ -1,0 +1,70 @@
+@media (min-width: 400px) {
+    body{
+        background-image: url("img/Background.jpg");
+        background-repeat: repeat;
+        background-position: right top;
+        background-attachment: fixed;
+        
+    }
+      }
+      header{
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 0 0 3px #FF0000;
+        color: blue
+      }
+
+div.b {
+    text-align: center;
+  }
+  .grid-container {
+
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 20px;
+    width: 100%;
+    display:  grid;
+    grid-auto-rows:  auto;
+
+    grid-template-columns:  repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap:  25px 25px;
+    align-content: center;
+
+  }
+
+
+  .gird-item{
+    background-color: #042768cb;
+    color: beige;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    grid-row: auto;
+    grid-column: auto;
+  
+
+  }
+  .box{
+    background-color: #945a04ab;
+    color: rgb(175, 175, 209);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+    grid-row: auto;
+    grid-column: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+font-weight: bold !important; 
+font-style: normal !important;
+font-size: 15px !important;
+  }
+img{
+    width: 200px;
+    height: 300px;
+    transition: transform .2s;
+
+}
+img:hover{
+    transform: scale(1.1);
+}
